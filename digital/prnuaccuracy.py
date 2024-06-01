@@ -40,7 +40,7 @@ def main():     #Funzione principale che processa le immagini dei dispositivi e 
             print(f"Directory {device_folder} does not exist.")
 
     # Percorso del file CSV contenente le etichette delle immagini di test
-    test_labels_file = '/home/melo/Desktop/forensics/PRNU_Device_Recognition/digital/test_labels.csv'
+    test_labels_file = '/test_labels.csv'
 
     # Calcolo dell'accuratezza
     accuracy = calculate_accuracy(test_labels_file, avg_prnus)

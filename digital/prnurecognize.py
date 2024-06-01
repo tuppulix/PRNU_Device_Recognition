@@ -21,7 +21,7 @@ def main():     #Funzione principale che processa le immagini dei dispositivi e 
         else:
             print(f"Directory {device_folder} does not exist.")
 
-    test_image_path = '/home/melo/Desktop/forensics/PRNU_Device_Recognition/digital/Tdevice3/D03_I_natWA_0035.jpg'
+    test_image_path = 'Tdevice3/D03_I_natWA_0035.jpg' #example
     if os.path.exists(test_image_path):
         test_image = cv2.resize(cv2.imread(test_image_path, cv2.IMREAD_GRAYSCALE), (700, 1080))
         closest_device, differences = f.classify_image(test_image, avg_prnus)

@@ -23,8 +23,8 @@ def transfer_random_images(src_folder, dest_folder, num_images):    #    Trasfer
         print(f"Immagine trasferita: {image}")
 
 # Specifica il percorso della cartella di origine e della cartella di destinazione
-src_folder = '/home/melo/Desktop/forensics/PRNU_Device_Recognition/digital/device5'
-dest_folder = '/home/melo/Desktop/forensics/PRNU_Device_Recognition/digital/Tdevice5'
+src_folder = 'device5'
+dest_folder = 'Tdevice5'
 num_images = 80  # Numero di immagini da trasferire
 
 # Trasferisci le immagini random

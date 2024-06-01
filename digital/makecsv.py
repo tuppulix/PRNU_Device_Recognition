@@ -28,7 +28,7 @@ def generate_csv(directory, csv_filename):  #Genera un file CSV con i percorsi c
     print(f"CSV file '{csv_filename}' generated successfully.")
 
 # Specifica il percorso della directory principale e il nome del file CSV
-directory = '/home/melo/Desktop/forensics/PRNU_Device_Recognition/digital'
+directory = 'digital'
 csv_filename = 'test_labels.csv'
 
 # Genera il file CSV

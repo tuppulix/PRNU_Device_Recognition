@@ -1,0 +1,15 @@
+# Ignora le cartelle device e Tdevice
+device1/
+device2/
+device3/
+device4/
+device5/
+Tdevice1/
+Tdevice2/
+Tdevice3/
+Tdevice4/
+Tdevice5/
+
+#ingora file csv e txt
+.csv 
+.txt

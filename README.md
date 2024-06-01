@@ -41,4 +41,4 @@ This project was developed for the Digital Forensics course at the University of
 ## Citation:
 If you use the code in this repository, please consider citing:
 
-[Bertolammi Carmelo], [Student], [Unict], [01/06/2024].
+[Bertolami Carmelo], [Student], [Unict], [01/06/2024].

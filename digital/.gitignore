@@ -11,5 +11,5 @@ Tdevice4/
 Tdevice5/
 
 #ingora file csv e txt
-.csv 
-.txt
+*.csv 
+*.txt
